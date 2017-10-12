@@ -10,53 +10,53 @@
 			<result>/index.jsp</result>
 		</action>
 
-		<!-- ÁÐ³öËùÓÐÊé¼® -->
+		<!-- ï¿½Ð³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¼® -->
 		<action name="ListAll" class=" action.BookAction" method="list">
 			<result name="success">/ListAll.jsp</result>
 			<result name="confirmAuthorSuccess" type="redirect">/confirmAuthor.action</result>
 		</action>
 		
-<!-- ÁÐ³öËùÓÐ×÷Õß -->
+<!-- ï¿½Ð³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
 		<action name="listAllAuthors" class=" action.BookAction" method="listAuthors">
 			<result name="success">/listAllAuthors.jsp</result>
 		</action>
 		
-<!-- É¾³ýÒ»±¾Êé -->
+<!-- É¾ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ -->
 		<action name="deleteOneBook" class=" action.BookAction" method="deleteOneBook">
 			<result name="success" type="redirect">/list.action</result>
 		</action>
 		
-<!-- Í¬Ê±É¾³ý¶à±¾Êé -->
+<!-- Í¬Ê±É¾ï¿½ï¿½ï¿½à±¾ï¿½ï¿½ -->
 		<action name="deleteManyBooks" class="top.sonack.crud.action.BookAction" method="deleteManyBooks">
 			<result name="success" type="redirect">/listAll.action</result>
 		</action>
 		
-<!-- ¸ø¶¨×÷Õß£¬²é³öÆäËùÖøÊé¼® -->
+<!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¼® -->
 		<action name="searchBooks" class=" action.BookAction" method="searchBooks">
 			<result name="success">/listAll.jsp</result>
 		</action>
 		
-<!-- Ôö¼ÓÊé¼® -->
+<!-- ï¿½ï¿½ï¿½ï¿½ï¿½é¼® -->
 		<action name="addBook">
 			<result name="success">/addBook.jsp</result>
 		</action>
 		
-<!-- ÐÞ¸ÄÊé¼®ÐÅÏ¢ -->
+<!-- ï¿½Þ¸ï¿½ï¿½é¼®ï¿½ï¿½Ï¢ -->
 		<action name="updateBook" class=" action.BookAction" method="updateBook">
 			<result name="success">/updateBook.jsp</result>
 		</action>
 		
-<!-- ÐÞ¸Ä×÷ÕßÐÅÏ¢ -->
+<!-- ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ -->
 		<action name="updateAuthor" class=" action.BookAction" method="updateAuthor">
 			<result name="success">/updateAuthor.jsp</result>
 		</action>
 		
-<!-- ÁÐ³ö×÷ÕßµÄÏêÏ¸ÐÅÏ¢ -->
+<!-- ï¿½Ð³ï¿½ï¿½ï¿½ï¿½ßµï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ï¢ -->
 		<action name="showBook" class=" action.BookAction" method="updateBook">
 			<result>/showBook.jsp</result>
 		</action>
 		
-<!-- ÁÐ³ö×÷ÕßµÄÏêÏ¸ÐÅÏ¢ -->
+<!-- ï¿½Ð³ï¿½ï¿½ï¿½ï¿½ßµï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ï¢ -->
 		<action name="showAuthor" class=" action.BookAction" method="updateAuthor">
 			<result>/showAuthor.jsp</result>
 		</action>

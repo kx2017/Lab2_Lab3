@@ -13,7 +13,6 @@ public class BookDao {
     private Statement stmt;
     private BookDao() {}
     public static BookDao getBookDao() {
-        if(bookdao == null) {
             bookdao = new BookDao();
         }
         return bookdao;
