@@ -15,7 +15,6 @@ public class BookDao {
     public static BookDao getBookDao() {
             bookdao = new BookDao();
         }
-        return bookdao;
     }
 
 
